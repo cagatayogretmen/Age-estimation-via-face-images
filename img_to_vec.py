@@ -72,7 +72,7 @@ class Img2Vec():
                 self.layer_output_size = 512
             else:
                 layer = model._modules.get(layer)
-
+                
             return model, layer
 
         elif model_name == 'alexnet':
